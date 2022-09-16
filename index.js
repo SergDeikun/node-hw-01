@@ -42,13 +42,3 @@ program.parse(process.argv);
 const argv = program.opts();
 
 invokeAction(argv);
-
-// invokeAction({ action: 'list' });
-// invokeAction({ action: 'get', id: '2' });
-// invokeAction({
-//   action: 'add',
-//   name: 'Bob',
-//   email: 'bob@mail.com',
-//   phone: '(992) 914-000',
-// });
-// invokeAction({ action: 'remove', id: 'PjPTgksmC2R-LnezD2tyL' });

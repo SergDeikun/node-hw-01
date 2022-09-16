@@ -17,7 +17,7 @@ async function getContactById(contactId) {
 async function addContact({ name, email, phone }) {
   const contacts = await getContactsList();
   const newContact = {
-    id: 2,
+    id: String(11),
     name,
     email,
     phone,
